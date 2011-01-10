@@ -1,0 +1,22 @@
+- pendant le rubberbox, le upline donne la possibilité de sélectionner le menu
+
+- problème avec le dossier relatif( avec les infos de l'infobar comme "nombre d'item 2",etc… quoi faire? toolbar classique et retire dossier relatif ?
+
+- problème avec renommage non très long… impossible de renommer un dossier avec de plus de 128 char... bug de zdesk ou du filesystem d'aranym ?
+
+- problème avec renommage caractère négatif… apparait comme ex: "%85".. bu de zdesk ou du filesystem d'aranym ?
+
+- Sur filesystem aranym, impossible de changer les attributs fichier ( lecture seule, caché ou droits). 
+
+- Sur MyAES, l'adresse de l'image de l'icone n'est pas la bonne.
+- Sur MyAES vérifier la forme souris "resize gauche-droite".
+- Sur MyAES pas d'objects étendus.
+
+
+- A faire: 	+ si les tabs sont visibles par défaut, à l'ouverture d'une fenêtre, la largeur de l'onglet est faux.
+		+ retirer dossier relatif dans ramdisk
+		+ sauver ram disk sur bureau
+		+ gestion de l'image de fond: adapter à la taille
+		+ drag&drop tab: a lieu de tout recalculer, simplement 
+		déplacer la mémoire du tab.
+		+ possibilité de changer la police dans lister
