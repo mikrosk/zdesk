@@ -19,7 +19,7 @@ FLAGS                   = flags -r
 endif
 COMPRESS                = upx -9
 
-all: $(PROGRAM) stack strip compress
+all: $(PROGRAM) stack strip #compress
 
 $(PROGRAM): $(OBJ)
 	$(CC) $(CPU) $(OPTIMISATION) -o $@ $(OBJ) $(LDFLAGS) $(LIB)
